@@ -56,7 +56,7 @@
 				group = new THREE.Object3D();
 				scene.add( group );
 
-				for ( var i = 0; i < 1000; i++ ) {
+				for ( var i = 0; i < 1000000; i++ ) {
 
 					particle = new THREE.Particle( new THREE.ParticleCanvasMaterial( { color: Math.random() * 0x808008 + 0x808080, program: program } ) );
 					particle.position.x = Math.random() * 2000 - 1000;
